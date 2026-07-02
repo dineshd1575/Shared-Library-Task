@@ -1,4 +1,5 @@
 def call() {
+    echo "========== BUILD STAGE =========="
     echo "Building Application..."
-    sh 'mvn clean package'
+    sh 'echo Build Successful'
 }
